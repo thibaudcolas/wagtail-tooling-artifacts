@@ -1,0 +1,1744 @@
+{
+  "testSuite": "BackstopJS",
+  "tests": [
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Wagtail_dashboard_with_new_Things_in_Wagtail_4_have_changed_banner.png",
+        "test": "../bitmaps_test/20240724-064921/Wagtail_dashboard_with_new_Things_in_Wagtail_4_have_changed_banner.png",
+        "selector": "document",
+        "fileName": "Wagtail_dashboard_with_new_Things_in_Wagtail_4_have_changed_banner.png",
+        "label": "Wagtail dashboard with new \"Things in Wagtail 4 have changed\" banner",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 3.2140625,
+          "misMatchPercentage": "3.21",
+          "analysisTime": 599
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Wagtail_dashboard_with_new_Things_in_Wagtail_4_have_changed_banner.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Screenshot_of_Wagtails_dashboard_with_sidebar_header_summary_metrics_and_listing_for_pages_in_different_states.png",
+        "test": "../bitmaps_test/20240724-064921/Screenshot_of_Wagtails_dashboard_with_sidebar_header_summary_metrics_and_listing_for_pages_in_different_states.png",
+        "selector": "document",
+        "fileName": "Screenshot_of_Wagtails_dashboard_with_sidebar_header_summary_metrics_and_listing_for_pages_in_different_states.png",
+        "label": "Screenshot of Wagtail’s dashboard, with sidebar, header, summary metrics, and listing for pages in different states",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/",
+        "expect": 0,
+        "viewportLabel": "1280x1100",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 3.773224431818182,
+          "misMatchPercentage": "3.77",
+          "analysisTime": 489
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Screenshot_of_Wagtails_dashboard_with_sidebar_header_summary_metrics_and_listing_for_pages_in_different_states.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Wagtails_explorer_menu_with_7_entries_There_is_a_button_with_a_left-pointing_arrow_to_the_top.png",
+        "test": "../bitmaps_test/20240724-064921/Wagtails_explorer_menu_with_7_entries_There_is_a_button_with_a_left-pointing_arrow_to_the_top.png",
+        "selector": ".sidebar-panel",
+        "fileName": "Wagtails_explorer_menu_with_7_entries_There_is_a_button_with_a_left-pointing_arrow_to_the_top.png",
+        "label": "Wagtail’s explorer menu, with 7 entries. There is a button with a left-pointing arrow to the top",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/",
+        "expect": 0,
+        "viewportLabel": "1280x1100",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/The_page_explorer_with_the_home_page_highlighted.png",
+        "test": "../bitmaps_test/20240724-064921/The_page_explorer_with_the_home_page_highlighted.png",
+        "selector": "main",
+        "fileName": "The_page_explorer_with_the_home_page_highlighted.png",
+        "label": "The page explorer, with the home page highlighted",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.3063657407407407,
+          "misMatchPercentage": "1.31",
+          "analysisTime": 645
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_The_page_explorer_with_the_home_page_highlighted.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Search_screen_with_bread_typed_in_focused_field_and_There_are_6_matching_pages_underneath_The_results_show_filters_and_sorting_options_and_four_results_rows_are_visible_underneath.png",
+        "test": "../bitmaps_test/20240724-064921/Search_screen_with_bread_typed_in_focused_field_and_There_are_6_matching_pages_underneath_The_results_show_filters_and_sorting_options_and_four_results_rows_are_visible_underneath.png",
+        "selector": "main",
+        "fileName": "Search_screen_with_bread_typed_in_focused_field_and_There_are_6_matching_pages_underneath_The_results_show_filters_and_sorting_options_and_four_results_rows_are_visible_underneath.png",
+        "label": "Search screen, with \"bread\" typed in focused field, and \"There are 6 matching pages\" underneath. The results show filters, and, sorting options, and four results rows are visible underneath",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/search/?q=bread",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.7349537037037037,
+          "misMatchPercentage": "2.73",
+          "analysisTime": 949
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Search_screen_with_bread_typed_in_focused_field_and_There_are_6_matching_pages_underneath_The_results_show_filters_and_sorting_options_and_four_results_rows_are_visible_underneath.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Listing_of_pages_with_heading_at_the_top_and_icon_buttons_Underneath_is_a_header_row_with_a_checkbox_and_column_names_and_then_rows_for_different_pages.png",
+        "test": "../bitmaps_test/20240724-064921/Listing_of_pages_with_heading_at_the_top_and_icon_buttons_Underneath_is_a_header_row_with_a_checkbox_and_column_names_and_then_rows_for_different_pages.png",
+        "selector": "main",
+        "fileName": "Listing_of_pages_with_heading_at_the_top_and_icon_buttons_Underneath_is_a_header_row_with_a_checkbox_and_column_names_and_then_rows_for_different_pages.png",
+        "label": "Listing of pages, with heading at the top and icon buttons. Underneath is a header row with a checkbox and column names, and then rows for different pages",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/60/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.7527777777777778,
+          "misMatchPercentage": "0.75",
+          "analysisTime": 681
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Listing_of_pages_with_heading_at_the_top_and_icon_buttons_Underneath_is_a_header_row_with_a_checkbox_and_column_names_and_then_rows_for_different_pages.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Close-up_of_the_pages_breadcrumb_with_icon_buttons_next_to_it_The_breadcrumb_reads_Root__Welcome_to_the_Wagtail_bakery__Breads.png",
+        "test": "../bitmaps_test/20240724-064921/Close-up_of_the_pages_breadcrumb_with_icon_buttons_next_to_it_The_breadcrumb_reads_Root__Welcome_to_the_Wagtail_bakery__Breads.png",
+        "selector": "header",
+        "fileName": "Close-up_of_the_pages_breadcrumb_with_icon_buttons_next_to_it_The_breadcrumb_reads_Root__Welcome_to_the_Wagtail_bakery__Breads.png",
+        "label": "Close-up of the page’s breadcrumb, with icon buttons next to it. The breadcrumb reads: \"Root > Welcome to the Wagtail bakery! > Breads",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/3/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.5401669274908711,
+          "misMatchPercentage": "1.54",
+          "analysisTime": 48
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Close-up_of_the_pages_breadcrumb_with_icon_buttons_next_to_it_The_breadcrumb_reads_Root__Welcome_to_the_Wagtail_bakery__Breads.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/The_page_listing_with_a_grip_control_in_the_first_column_for_each_row_preceded_by_a_Sort_column_label.png",
+        "test": "../bitmaps_test/20240724-064921/The_page_listing_with_a_grip_control_in_the_first_column_for_each_row_preceded_by_a_Sort_column_label.png",
+        "selector": "main",
+        "fileName": "The_page_listing_with_a_grip_control_in_the_first_column_for_each_row_preceded_by_a_Sort_column_label.png",
+        "label": "The page listing, with a \"grip\" control in the first column for each row, preceded by a \"Sort\" column label",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/3/?ordering=ord",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.8974074074074073,
+          "misMatchPercentage": "0.90",
+          "analysisTime": 811
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_The_page_listing_with_a_grip_control_in_the_first_column_for_each_row_preceded_by_a_Sort_column_label.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Breads_page_listing_with_expanded_three_dots_Actions_menu_in_the_header_showing_7_different_page_actions_One_Add_child_page_is_highlighted_in_red.png",
+        "test": "../bitmaps_test/20240724-064921/Breads_page_listing_with_expanded_three_dots_Actions_menu_in_the_header_showing_7_different_page_actions_One_Add_child_page_is_highlighted_in_red.png",
+        "selector": "document",
+        "fileName": "Breads_page_listing_with_expanded_three_dots_Actions_menu_in_the_header_showing_7_different_page_actions_One_Add_child_page_is_highlighted_in_red.png",
+        "label": "Breads page listing, with expanded \"three dots\" Actions menu in the header, showing 7 different page actions. One, \"Add child page\", is highlighted in red",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/3/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.8592187500000001,
+          "misMatchPercentage": "0.86",
+          "analysisTime": 357
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Breads_page_listing_with_expanded_three_dots_Actions_menu_in_the_header_showing_7_different_page_actions_One_Add_child_page_is_highlighted_in_red.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/The_page_listing_with_checkboxes_in_the_first_column_two_of_which_are_checked_At_the_bottom_is_an_actions_menu_with_different_buttons_and_a_2_pages_selected_label.png",
+        "test": "../bitmaps_test/20240724-064921/The_page_listing_with_checkboxes_in_the_first_column_two_of_which_are_checked_At_the_bottom_is_an_actions_menu_with_different_buttons_and_a_2_pages_selected_label.png",
+        "selector": "main",
+        "fileName": "The_page_listing_with_checkboxes_in_the_first_column_two_of_which_are_checked_At_the_bottom_is_an_actions_menu_with_different_buttons_and_a_2_pages_selected_label.png",
+        "label": "The page listing, with checkboxes in the first column, two of which are checked. At the bottom is an actions menu with different buttons and a \"2 pages selected\" label",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/3/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.9324074074074075,
+          "misMatchPercentage": "0.93",
+          "analysisTime": 655
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_The_page_listing_with_checkboxes_in_the_first_column_two_of_which_are_checked_At_the_bottom_is_an_actions_menu_with_different_buttons_and_a_2_pages_selected_label.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Create_a_page_in_Welcome_to_the_Wagtail_bakery_page_type_list_with_7_different_page_types_to_choose_from_with_a_link_to_pages_using_each_type_in_each_row.png",
+        "test": "../bitmaps_test/20240724-064921/Create_a_page_in_Welcome_to_the_Wagtail_bakery_page_type_list_with_7_different_page_types_to_choose_from_with_a_link_to_pages_using_each_type_in_each_row.png",
+        "selector": "main",
+        "fileName": "Create_a_page_in_Welcome_to_the_Wagtail_bakery_page_type_list_with_7_different_page_types_to_choose_from_with_a_link_to_pages_using_each_type_in_each_row.png",
+        "label": "\"Create a page in Welcome to the Wagtail bakery!\" page type list, with 7 different page types to choose from, with a link to pages using each type in each row",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/60/add_subpage/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Page_editor_titled_New_Standard_page_showing_the_Content_tab_with_all_fields_empty.png",
+        "test": "../bitmaps_test/20240724-064921/Page_editor_titled_New_Standard_page_showing_the_Content_tab_with_all_fields_empty.png",
+        "selector": "document",
+        "fileName": "Page_editor_titled_New_Standard_page_showing_the_Content_tab_with_all_fields_empty.png",
+        "label": "Page editor titled \"New: Standard page\", showing the Content tab, with all fields empty",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/add/base/standardpage/60/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/screen118_adding_new_blocks.png",
+        "test": "../bitmaps_test/20240724-064921/screen118_adding_new_blocks.png",
+        "selector": ".tab-content",
+        "fileName": "screen118_adding_new_blocks.png",
+        "label": "screen11.8_adding_new_blocks",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/69/edit/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "engineErrorMsg": "Waiting for selector `[data-streamfield-stream-container] > div:nth-child(3) [data-streamblock-menu-open]` failed: Waiting failed: 30000ms exceeded",
+        "error": "Reference file not found /Users/thibaudcolas/Dev/thibaudcolas/wagtail-tooling/docs-screenshots/data/bitmaps_reference/screen118_adding_new_blocks.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Close-up_of_a_paragraph_block_with_block_reodering_delete_duplicate_controls_visible_to_the_right.png",
+        "test": "../bitmaps_test/20240724-064921/Close-up_of_a_paragraph_block_with_block_reodering_delete_duplicate_controls_visible_to_the_right.png",
+        "selector": "[data-streamfield-stream-container]",
+        "fileName": "Close-up_of_a_paragraph_block_with_block_reodering_delete_duplicate_controls_visible_to_the_right.png",
+        "label": "Close-up of a paragraph block, with block reodering, delete, duplicate controls visible to the right",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/69/edit/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "engineErrorMsg": "Waiting for selector `.w-panel__controls-cue` failed: Waiting failed: 30000ms exceeded",
+        "error": "Reference file not found /Users/thibaudcolas/Dev/thibaudcolas/wagtail-tooling/docs-screenshots/data/bitmaps_reference/Close-up_of_a_paragraph_block_with_block_reodering_delete_duplicate_controls_visible_to_the_right.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Page_body_field_with_a_grid_of_6_blocks_underneath.png",
+        "test": "../bitmaps_test/20240724-064921/Page_body_field_with_a_grid_of_6_blocks_underneath.png",
+        "selector": ".tab-content",
+        "fileName": "Page_body_field_with_a_grid_of_6_blocks_underneath.png",
+        "label": "Page body field, with a grid of 6 blocks underneath",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/add/base/standardpage/60/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/The_page_editing_form_with_its_Info_side_panel_opened_to_the_right_with_a_highlight_on_page_workflow_metadata.png",
+        "test": "../bitmaps_test/20240724-064921/The_page_editing_form_with_its_Info_side_panel_opened_to_the_right_with_a_highlight_on_page_workflow_metadata.png",
+        "selector": "main",
+        "fileName": "The_page_editing_form_with_its_Info_side_panel_opened_to_the_right_with_a_highlight_on_page_workflow_metadata.png",
+        "label": "The page editing form, with its Info side panel opened to the right, with a highlight on page workflow metadata",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/61/edit/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.12685185185185185,
+          "misMatchPercentage": "0.13",
+          "analysisTime": 629
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_The_page_editing_form_with_its_Info_side_panel_opened_to_the_right_with_a_highlight_on_page_workflow_metadata.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Page_history_for_Breads_and_circuses_with_a_listing_of_actions_and_a_filtering_form_to_the_right.png",
+        "test": "../bitmaps_test/20240724-064921/Page_history_for_Breads_and_circuses_with_a_listing_of_actions_and_a_filtering_form_to_the_right.png",
+        "selector": "main",
+        "fileName": "Page_history_for_Breads_and_circuses_with_a_listing_of_actions_and_a_filtering_form_to_the_right.png",
+        "label": "Page history for \"Breads and circuses\", with a listing of actions, and a filtering form to the right",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/68/history/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.04490740740740741,
+          "misMatchPercentage": "0.04",
+          "analysisTime": 1561
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/page_history_replace_current_draft.png",
+        "test": "../bitmaps_test/20240724-064921/page_history_replace_current_draft.png",
+        "selector": "main",
+        "fileName": "page_history_replace_current_draft.png",
+        "label": "page_history_replace_current_draft",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/68/revisions/9/revert/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "error": "Reference file not found /Users/thibaudcolas/Dev/thibaudcolas/wagtail-tooling/docs-screenshots/data/bitmaps_reference/page_history_replace_current_draft.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Listing_of_pages_with_highlight_on_the_arrow_of_a_child_page_Blog_when_hovered_over.png",
+        "test": "../bitmaps_test/20240724-064921/Listing_of_pages_with_highlight_on_the_arrow_of_a_child_page_Blog_when_hovered_over.png",
+        "selector": "main",
+        "fileName": "Listing_of_pages_with_highlight_on_the_arrow_of_a_child_page_Blog_when_hovered_over.png",
+        "label": "Listing of pages with highlight on the arrow of a child page, Blog when hovered over",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/60/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.7527777777777778,
+          "misMatchPercentage": "0.75",
+          "analysisTime": 513
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Listing_of_pages_with_highlight_on_the_arrow_of_a_child_page_Blog_when_hovered_over.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Copy_action_available_when_hovering_over_a_page_in_an_explorer_page.png",
+        "test": "../bitmaps_test/20240724-064921/Copy_action_available_when_hovering_over_a_page_in_an_explorer_page.png",
+        "selector": "main",
+        "fileName": "Copy_action_available_when_hovering_over_a_page_in_an_explorer_page.png",
+        "label": "Copy action available when hovering over a page in an explorer page",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/3/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.9424768518518518,
+          "misMatchPercentage": "0.94",
+          "analysisTime": 80
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Copy_action_available_when_hovering_over_a_page_in_an_explorer_page.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Copy_page_form_with_the_options_to_change_the_title_slug_parent_page_published_status_and_option_to_create_an_alias.png",
+        "test": "../bitmaps_test/20240724-064921/Copy_page_form_with_the_options_to_change_the_title_slug_parent_page_published_status_and_option_to_create_an_alias.png",
+        "selector": "main",
+        "fileName": "Copy_page_form_with_the_options_to_change_the_title_slug_parent_page_published_status_and_option_to_create_an_alias.png",
+        "label": "Copy page form with the options to change the title, slug, parent page, published status and option to create an alias",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/34/copy/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Clicking_the_change_button_during_the_copy_page_form_in_order_to_change_the_parent_of_the_copied_page.png",
+        "test": "../bitmaps_test/20240724-064921/Clicking_the_change_button_during_the_copy_page_form_in_order_to_change_the_parent_of_the_copied_page.png",
+        "selector": "main",
+        "fileName": "Clicking_the_change_button_during_the_copy_page_form_in_order_to_change_the_parent_of_the_copied_page.png",
+        "label": "Clicking the change button during the copy page form in order to change the parent of the copied page",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/34/copy/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.022800925925925926,
+          "misMatchPercentage": "0.02",
+          "analysisTime": 550
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Clicking_on_the_Copy_this_page_button_to_confirm_aliasing.png",
+        "test": "../bitmaps_test/20240724-064921/Clicking_on_the_Copy_this_page_button_to_confirm_aliasing.png",
+        "selector": "main",
+        "fileName": "Clicking_on_the_Copy_this_page_button_to_confirm_aliasing.png",
+        "label": "Clicking on the Copy this page button to confirm aliasing",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/34/copy/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/screen127_3_alias_page_new_parent.png",
+        "test": "../bitmaps_test/20240724-064921/screen127_3_alias_page_new_parent.png",
+        "selector": "main",
+        "fileName": "screen127_3_alias_page_new_parent.png",
+        "label": "screen12.7_3_alias_page_new_parent",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/3/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.8228009259259259,
+          "misMatchPercentage": "0.82",
+          "analysisTime": 78
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_screen127_3_alias_page_new_parent.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Editing_an_alias_page_notifies_it_is_an_alias_and_offers_to_either_edit_the_original_page_or_change_the_alias_to_an_ordinary_page.png",
+        "test": "../bitmaps_test/20240724-064921/Editing_an_alias_page_notifies_it_is_an_alias_and_offers_to_either_edit_the_original_page_or_change_the_alias_to_an_ordinary_page.png",
+        "selector": "main",
+        "fileName": "Editing_an_alias_page_notifies_it_is_an_alias_and_offers_to_either_edit_the_original_page_or_change_the_alias_to_an_ordinary_page.png",
+        "label": "Editing an alias page notifies it is an alias and offers to either edit the original page or change the alias to an ordinary page",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/81/edit/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Screenshot_of_the_whole_page_editing_screen_in_Wagtail_with_sidebar_header_main_form_with_page_fields.png",
+        "test": "../bitmaps_test/20240724-064921/Screenshot_of_the_whole_page_editing_screen_in_Wagtail_with_sidebar_header_main_form_with_page_fields.png",
+        "selector": "document",
+        "fileName": "Screenshot_of_the_whole_page_editing_screen_in_Wagtail_with_sidebar_header_main_form_with_page_fields.png",
+        "label": "Screenshot of the whole page editing screen in Wagtail, with sidebar, header, main form with page fields",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/68/edit/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Page_editor_with_Save-Submit_menu_expanded_to_reveal_all_four_options.png",
+        "test": "../bitmaps_test/20240724-064921/Page_editor_with_Save-Submit_menu_expanded_to_reveal_all_four_options.png",
+        "selector": "",
+        "fileName": "Page_editor_with_Save-Submit_menu_expanded_to_reveal_all_four_options.png",
+        "label": "Page editor, with Save-Submit menu expanded to reveal all four options",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/76/edit/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "engineErrorMsg": "Waiting for selector `footer .dropdown-toggle` failed: Waiting failed: 30000ms exceeded",
+        "error": "Reference file not found /Users/thibaudcolas/Dev/thibaudcolas/wagtail-tooling/docs-screenshots/data/bitmaps_reference/Page_editor_with_Save-Submit_menu_expanded_to_reveal_all_four_options.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Page_editor_for_Bread_and_Circuses_page_The_form_to_the_left_and_to_the_right_the_Preview_side_panel_is_expanded_showing_the_page_as_it_would_appear_to_users_on_Mobile_devices.png",
+        "test": "../bitmaps_test/20240724-064921/Page_editor_for_Bread_and_Circuses_page_The_form_to_the_left_and_to_the_right_the_Preview_side_panel_is_expanded_showing_the_page_as_it_would_appear_to_users_on_Mobile_devices.png",
+        "selector": "main",
+        "fileName": "Page_editor_for_Bread_and_Circuses_page_The_form_to_the_left_and_to_the_right_the_Preview_side_panel_is_expanded_showing_the_page_as_it_would_appear_to_users_on_Mobile_devices.png",
+        "label": "Page editor for \"Bread and Circuses\" page. The form to the left, and to the right the Preview side panel is expanded, showing the page as it would appear to users on Mobile devices",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/68/edit/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Page_editor_for_Bread_and_Circuses_page_The_form_to_the_left_and_to_the_right_the_Status_side_panel_is_expanded.png",
+        "test": "../bitmaps_test/20240724-064921/Page_editor_for_Bread_and_Circuses_page_The_form_to_the_left_and_to_the_right_the_Status_side_panel_is_expanded.png",
+        "selector": "main",
+        "fileName": "Page_editor_for_Bread_and_Circuses_page_The_form_to_the_left_and_to_the_right_the_Status_side_panel_is_expanded.png",
+        "label": "Page editor for \"Bread and Circuses\" page. The form to the left, and to the right the Status side panel is expanded",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/68/edit/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.31562500000000004,
+          "misMatchPercentage": "0.32",
+          "analysisTime": 524
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Page_editor_for_Bread_and_Circuses_page_The_form_to_the_left_and_to_the_right_the_Status_side_panel_is_expanded.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Page_privacy_dialog_with_the_Public_option_selected.png",
+        "test": "../bitmaps_test/20240724-064921/Page_privacy_dialog_with_the_Public_option_selected.png",
+        "selector": ".wrapper",
+        "fileName": "Page_privacy_dialog_with_the_Public_option_selected.png",
+        "label": "Page privacy dialog, with the Public option selected",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/68/edit/",
+        "expect": 0,
+        "viewportLabel": "800x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.30078125,
+          "misMatchPercentage": "0.30",
+          "analysisTime": 423
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Page_privacy_dialog_with_the_Public_option_selected.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Page_privacy_dialog_with_the_Shared_Password_option_selected.png",
+        "test": "../bitmaps_test/20240724-064921/Page_privacy_dialog_with_the_Shared_Password_option_selected.png",
+        "selector": ".wrapper",
+        "fileName": "Page_privacy_dialog_with_the_Shared_Password_option_selected.png",
+        "label": "Page privacy dialog, with the Shared Password option selected",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/68/edit/",
+        "expect": 0,
+        "viewportLabel": "800x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.062031249999999996,
+          "misMatchPercentage": "0.06",
+          "analysisTime": 490
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Close-up_of_an_empty_Image_field_showing_its_Choose_an_image_button_and_help_text_underneath.png",
+        "test": "../bitmaps_test/20240724-064921/Close-up_of_an_empty_Image_field_showing_its_Choose_an_image_button_and_help_text_underneath.png",
+        "selector": ".tab-content",
+        "fileName": "Close-up_of_an_empty_Image_field_showing_its_Choose_an_image_button_and_help_text_underneath.png",
+        "label": "Close-up of an empty Image field, showing its \"Choose an image\" button, and help text underneath",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/add/base/standardpage/60/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Choose_an_image_modal_dialog_with_Search_and_Upload_tabs_showing_a_grid_of_images_underneath_Search_Collection_Popular_tags_filters.png",
+        "test": "../bitmaps_test/20240724-064921/Choose_an_image_modal_dialog_with_Search_and_Upload_tabs_showing_a_grid_of_images_underneath_Search_Collection_Popular_tags_filters.png",
+        "selector": "document",
+        "fileName": "Choose_an_image_modal_dialog_with_Search_and_Upload_tabs_showing_a_grid_of_images_underneath_Search_Collection_Popular_tags_filters.png",
+        "label": "\"Choose an image\" modal dialog, with Search and Upload tabs, showing a grid of images underneath Search, Collection, Popular tags filters",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/add/base/standardpage/60/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Close-up_of_a_rich_text_block_with_a_text_paragraph_and_then_a_thumbnail_with_a_video_Play_symbol_in_the_top_right.png",
+        "test": "../bitmaps_test/20240724-064921/Close-up_of_a_rich_text_block_with_a_text_paragraph_and_then_a_thumbnail_with_a_video_Play_symbol_in_the_top_right.png",
+        "selector": "[data-streamfield-stream-container]",
+        "fileName": "Close-up_of_a_rich_text_block_with_a_text_paragraph_and_then_a_thumbnail_with_a_video_Play_symbol_in_the_top_right.png",
+        "label": "Close-up of a rich text block, with a text paragraph, and then a thumbnail with a video \"Play\" symbol in the top right",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/68/edit/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Authors_block_with_two_Authors_child_items_each_containing_a_People_field_The_first_blocks_controls_to_the_right_are_highlighted_in_red.png",
+        "test": "../bitmaps_test/20240724-064921/Authors_block_with_two_Authors_child_items_each_containing_a_People_field_The_first_blocks_controls_to_the_right_are_highlighted_in_red.png",
+        "selector": ".tab-content",
+        "fileName": "Authors_block_with_two_Authors_child_items_each_containing_a_People_field_The_first_blocks_controls_to_the_right_are_highlighted_in_red.png",
+        "label": "Authors block, with two Authors child items, each containing a People field. The first block’s controls to the right are highlighted in red",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/73/edit/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Promote_tab_of_the_page_editor_form_with_three_For_search_engines_fields_and_the_Show_in_menus_checkbox_underneath.png",
+        "test": "../bitmaps_test/20240724-064921/Promote_tab_of_the_page_editor_form_with_three_For_search_engines_fields_and_the_Show_in_menus_checkbox_underneath.png",
+        "selector": "main",
+        "fileName": "Promote_tab_of_the_page_editor_form_with_three_For_search_engines_fields_and_the_Show_in_menus_checkbox_underneath.png",
+        "label": "Promote tab of the page editor form, with three \"For search engines\" fields, and the \"Show in menus\" checkbox underneath",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/add/base/standardpage/60/#tab-promote",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.7354166666666666,
+          "misMatchPercentage": "2.74",
+          "analysisTime": 731
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Promote_tab_of_the_page_editor_form_with_three_For_search_engines_fields_and_the_Show_in_menus_checkbox_underneath.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/screen27_docs_icon.png",
+        "test": "../bitmaps_test/20240724-064921/screen27_docs_icon.png",
+        "selector": ".tab-content",
+        "fileName": "screen27_docs_icon.png",
+        "label": "screen27_docs_icon",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/69/edit/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Documents_listing_with_two_items_one_of_which_is_selected_with_their_left-hand_checkbox_Underneath_an_action_menu_shows_different_actions_and_the_text_1_document_selected.png",
+        "test": "../bitmaps_test/20240724-064921/Documents_listing_with_two_items_one_of_which_is_selected_with_their_left-hand_checkbox_Underneath_an_action_menu_shows_different_actions_and_the_text_1_document_selected.png",
+        "selector": "main",
+        "fileName": "Documents_listing_with_two_items_one_of_which_is_selected_with_their_left-hand_checkbox_Underneath_an_action_menu_shows_different_actions_and_the_text_1_document_selected.png",
+        "label": "Documents listing, with two items, one of which is selected with their left-hand checkbox. Underneath, an action menu shows different actions and the text \"1 document selected",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/documents/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.7395833333333333,
+          "misMatchPercentage": "1.74",
+          "analysisTime": 82
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Documents_listing_with_two_items_one_of_which_is_selected_with_their_left-hand_checkbox_Underneath_an_action_menu_shows_different_actions_and_the_text_1_document_selected.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Documents_listing_with_Search_field_in_header_Add_document_button_and_a_Collections_dropdown_Underneath_are_2_rows_of_documents_with_a_header_row_above.png",
+        "test": "../bitmaps_test/20240724-064921/Documents_listing_with_Search_field_in_header_Add_document_button_and_a_Collections_dropdown_Underneath_are_2_rows_of_documents_with_a_header_row_above.png",
+        "selector": "main",
+        "fileName": "Documents_listing_with_Search_field_in_header_Add_document_button_and_a_Collections_dropdown_Underneath_are_2_rows_of_documents_with_a_header_row_above.png",
+        "label": "Documents listing, with Search field in header, Add document button, and a Collections dropdown. Underneath, are 2 rows of documents with a header row above",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/documents/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.7255555555555557,
+          "misMatchPercentage": "2.73",
+          "analysisTime": 78
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Documents_listing_with_Search_field_in_header_Add_document_button_and_a_Collections_dropdown_Underneath_are_2_rows_of_documents_with_a_header_row_above.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Document_editing_form_for_a_Cookbook_Skillet_Cornbread_Document_To_the_right_we_see_the_file_size_of_130_KB_and_a_Usage_Used_0_times_label.png",
+        "test": "../bitmaps_test/20240724-064921/Document_editing_form_for_a_Cookbook_Skillet_Cornbread_Document_To_the_right_we_see_the_file_size_of_130_KB_and_a_Usage_Used_0_times_label.png",
+        "selector": "main",
+        "fileName": "Document_editing_form_for_a_Cookbook_Skillet_Cornbread_Document_To_the_right_we_see_the_file_size_of_130_KB_and_a_Usage_Used_0_times_label.png",
+        "label": "Document editing form for a \"Cookbook: Skillet Cornbread\" Document. To the right we see the file size of 13.0 KB, and a \"Usage Used 0 times\" label",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/documents/edit/2/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Images_listing_with_checkboxes_shown_next_to_images_Five_images_are_selected_and_a_bottom_menu_shows_different_actions_as_well_as_a_5_images_selected_label.png",
+        "test": "../bitmaps_test/20240724-064921/Images_listing_with_checkboxes_shown_next_to_images_Five_images_are_selected_and_a_bottom_menu_shows_different_actions_as_well_as_a_5_images_selected_label.png",
+        "selector": "main",
+        "fileName": "Images_listing_with_checkboxes_shown_next_to_images_Five_images_are_selected_and_a_bottom_menu_shows_different_actions_as_well_as_a_5_images_selected_label.png",
+        "label": "Images listing, with checkboxes shown next to images. Five images are selected, and a bottom menu shows different actions as well as a \"5 images selected\" label",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/images/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.2179398148148148,
+          "misMatchPercentage": "0.22",
+          "analysisTime": 342
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Images_listing_with_checkboxes_shown_next_to_images_Five_images_are_selected_and_a_bottom_menu_shows_different_actions_as_well_as_a_5_images_selected_label.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Images_listing_with_header_and_images_grid.png",
+        "test": "../bitmaps_test/20240724-064921/Images_listing_with_header_and_images_grid.png",
+        "selector": "main",
+        "fileName": "Images_listing_with_header_and_images_grid.png",
+        "label": "Images listing, with header and images grid",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/images/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.2189814814814815,
+          "misMatchPercentage": "0.22",
+          "analysisTime": 437
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Images_listing_with_header_and_images_grid.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Image_editing_form_for_Olivia_Ava_image_To_the_right_of_the_form_is_an_image_preview_focal_point_controls_and_metadata_about_the_image.png",
+        "test": "../bitmaps_test/20240724-064921/Image_editing_form_for_Olivia_Ava_image_To_the_right_of_the_form_is_an_image_preview_focal_point_controls_and_metadata_about_the_image.png",
+        "selector": "main",
+        "fileName": "Image_editing_form_for_Olivia_Ava_image_To_the_right_of_the_form_is_an_image_preview_focal_point_controls_and_metadata_about_the_image.png",
+        "label": "Image editing form for Olivia Ava image. To the right of the form is an image preview, focal point controls, and metadata about the image",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/images/52/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/screen33_snippet_menu.png",
+        "test": "../bitmaps_test/20240724-064921/screen33_snippet_menu.png",
+        "selector": "main",
+        "fileName": "screen33_snippet_menu.png",
+        "label": "screen33_snippet_menu",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/snippets/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 2.4035185185185184,
+          "misMatchPercentage": "2.40",
+          "analysisTime": 386
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_screen33_snippet_menu.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Snippet_editing_form_for_a_People_snippet_instance_To_the_right_of_the_form_is_a_Usage_Used_n_times_label.png",
+        "test": "../bitmaps_test/20240724-064921/Snippet_editing_form_for_a_People_snippet_instance_To_the_right_of_the_form_is_a_Usage_Used_n_times_label.png",
+        "selector": "main",
+        "fileName": "Snippet_editing_form_for_a_People_snippet_instance_To_the_right_of_the_form_is_a_Usage_Used_n_times_label.png",
+        "label": "Snippet editing form for a People snippet instance. To the right of the form is a \"Usage Used n times\" label",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/snippets/base/people/edit/2/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "engineErrorMsg": "Waiting for selector `[data-side-panel-toggle=\"status\"]` failed: Waiting failed: 30000ms exceeded",
+        "error": "Reference file not found /Users/thibaudcolas/Dev/thibaudcolas/wagtail-tooling/docs-screenshots/data/bitmaps_reference/Snippet_editing_form_for_a_People_snippet_instance_To_the_right_of_the_form_is_a_Usage_Used_n_times_label.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Form_to_create_a_collection_with_a_Name_text_field_and_Parent_dropdown_field.png",
+        "test": "../bitmaps_test/20240724-064921/Form_to_create_a_collection_with_a_Name_text_field_and_Parent_dropdown_field.png",
+        "selector": "main",
+        "fileName": "Form_to_create_a_collection_with_a_Name_text_field_and_Parent_dropdown_field.png",
+        "label": "Form to create a collection, with a Name text field and Parent dropdown field",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/collections/add/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Screenshot_of_the_Add_Images_page_with_a_drag-and-drop_zone_with_the_Collection_dropdown_field_highlighted_in_red.png",
+        "test": "../bitmaps_test/20240724-064921/Screenshot_of_the_Add_Images_page_with_a_drag-and-drop_zone_with_the_Collection_dropdown_field_highlighted_in_red.png",
+        "selector": "main",
+        "fileName": "Screenshot_of_the_Add_Images_page_with_a_drag-and-drop_zone_with_the_Collection_dropdown_field_highlighted_in_red.png",
+        "label": "Screenshot of the Add Images page, with a drag-and-drop zone, with the Collection dropdown field highlighted in red",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/images/multiple/add/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Screenshot_of_the_image_editing_form_for_an_image_titled_Olivia_Ava_with_the_Collection_field_highlighted_in_red.png",
+        "test": "../bitmaps_test/20240724-064921/Screenshot_of_the_image_editing_form_for_an_image_titled_Olivia_Ava_with_the_Collection_field_highlighted_in_red.png",
+        "selector": "main",
+        "fileName": "Screenshot_of_the_image_editing_form_for_an_image_titled_Olivia_Ava_with_the_Collection_field_highlighted_in_red.png",
+        "label": "Screenshot of the image editing form for an image titled Olivia Ava, with the Collection field highlighted in red",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/images/52/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Collections_listing_with_three_rows_Bakeries_BreadPage_Images_Other.png",
+        "test": "../bitmaps_test/20240724-064921/Collections_listing_with_three_rows_Bakeries_BreadPage_Images_Other.png",
+        "selector": "main",
+        "fileName": "Collections_listing_with_three_rows_Bakeries_BreadPage_Images_Other.png",
+        "label": "Collections listing with three rows: Bakeries, BreadPage Images, Other",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/collections/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.8651851851851853,
+          "misMatchPercentage": "1.87",
+          "analysisTime": 65
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Collections_listing_with_three_rows_Bakeries_BreadPage_Images_Other.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/The_collection_editing_form_for_BreadPage_Images_with_a_red_highlight_around_the_Privacy_public_form_control.png",
+        "test": "../bitmaps_test/20240724-064921/The_collection_editing_form_for_BreadPage_Images_with_a_red_highlight_around_the_Privacy_public_form_control.png",
+        "selector": "main",
+        "fileName": "The_collection_editing_form_for_BreadPage_Images_with_a_red_highlight_around_the_Privacy_public_form_control.png",
+        "label": "The collection editing form for BreadPage Images, with a red highlight around the Privacy: \"public\" form control",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/collections/4/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/collections_privacy_overlay.png",
+        "test": "../bitmaps_test/20240724-064921/collections_privacy_overlay.png",
+        "selector": ".w-dialog__box",
+        "fileName": "collections_privacy_overlay.png",
+        "label": "collections_privacy_overlay",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/collections/4/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "error": "Reference file not found /Users/thibaudcolas/Dev/thibaudcolas/wagtail-tooling/docs-screenshots/data/bitmaps_reference/collections_privacy_overlay.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/The_users_listing_with_checkboxes_in_the_first_column_The_checkbox_for_the_Admin_user_row_has_been_checked_and_a_footer_with_different_actions_shows_at_the_bottom_of_the_screen.png",
+        "test": "../bitmaps_test/20240724-064921/The_users_listing_with_checkboxes_in_the_first_column_The_checkbox_for_the_Admin_user_row_has_been_checked_and_a_footer_with_different_actions_shows_at_the_bottom_of_the_screen.png",
+        "selector": "main",
+        "fileName": "The_users_listing_with_checkboxes_in_the_first_column_The_checkbox_for_the_Admin_user_row_has_been_checked_and_a_footer_with_different_actions_shows_at_the_bottom_of_the_screen.png",
+        "label": "The users’ listing, with checkboxes in the first column. The checkbox for the \"Admin user\" row has been checked, and a footer with different actions shows at the bottom of the screen",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/users/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.8555555555555554,
+          "misMatchPercentage": "1.86",
+          "analysisTime": 106
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_The_users_listing_with_checkboxes_in_the_first_column_The_checkbox_for_the_Admin_user_row_has_been_checked_and_a_footer_with_different_actions_shows_at_the_bottom_of_the_screen.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/The_users_listing_with_search_and_a_CTA_to_add_users_This_shows_three_rows_with_users_Olivia_Ava_Admin_User_and_Muddy_Waters.png",
+        "test": "../bitmaps_test/20240724-064921/The_users_listing_with_search_and_a_CTA_to_add_users_This_shows_three_rows_with_users_Olivia_Ava_Admin_User_and_Muddy_Waters.png",
+        "selector": "main",
+        "fileName": "The_users_listing_with_search_and_a_CTA_to_add_users_This_shows_three_rows_with_users_Olivia_Ava_Admin_User_and_Muddy_Waters.png",
+        "label": "The users’ listing, with search and a CTA to add users. This shows three rows with users Olivia Ava, Admin User, and Muddy Waters",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/users/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.857962962962963,
+          "misMatchPercentage": "1.86",
+          "analysisTime": 317
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_The_users_listing_with_search_and_a_CTA_to_add_users_This_shows_three_rows_with_users_Olivia_Ava_Admin_User_and_Muddy_Waters.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Popular_search_terms_modal_dialog_with_close_button_search_fields_and_a_table_showing_multiple_terms_with_their_respective_Views.png",
+        "test": "../bitmaps_test/20240724-064921/Popular_search_terms_modal_dialog_with_close_button_search_fields_and_a_table_showing_multiple_terms_with_their_respective_Views.png",
+        "selector": ".modal-content",
+        "fileName": "Popular_search_terms_modal_dialog_with_close_button_search_fields_and_a_table_showing_multiple_terms_with_their_respective_Views.png",
+        "label": "Popular search terms modal dialog, with close button, search fields, and a table showing multiple terms with their respective Views",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/searchpicks/4/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Promoted_results_listing_with_search_field_Add_button_and_four_results_listed_under_as_rows.png",
+        "test": "../bitmaps_test/20240724-064921/Promoted_results_listing_with_search_field_Add_button_and_four_results_listed_under_as_rows.png",
+        "selector": "main",
+        "fileName": "Promoted_results_listing_with_search_field_Add_button_and_four_results_listed_under_as_rows.png",
+        "label": "Promoted results listing, with search field, \"Add\" button, and four results listed under as rows",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/searchpicks/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.8333333333333333,
+          "misMatchPercentage": "1.83",
+          "analysisTime": 915
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Promoted_results_listing_with_search_field_Add_button_and_four_results_listed_under_as_rows.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Promoted_result_editing_form_with_search_term_field_and_associated_pages.png",
+        "test": "../bitmaps_test/20240724-064921/Promoted_result_editing_form_with_search_term_field_and_associated_pages.png",
+        "selector": "main",
+        "fileName": "Promoted_result_editing_form_with_search_term_field_and_associated_pages.png",
+        "label": "Promoted result editing form, with search term field and associated pages",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/searchpicks/4/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/screen40_table_block.png",
+        "test": "../bitmaps_test/20240724-064921/screen40_table_block.png",
+        "selector": ".tab-content",
+        "fileName": "screen40_table_block.png",
+        "label": "screen40_table_block",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/81/edit/",
+        "expect": 0,
+        "viewportLabel": "800x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Redirects_listing_with_a_search_field_in_the_header_buttons_to_add_and_import_redirects_and_rows_of_existing_underneath.png",
+        "test": "../bitmaps_test/20240724-064921/Redirects_listing_with_a_search_field_in_the_header_buttons_to_add_and_import_redirects_and_rows_of_existing_underneath.png",
+        "selector": "main",
+        "fileName": "Redirects_listing_with_a_search_field_in_the_header_buttons_to_add_and_import_redirects_and_rows_of_existing_underneath.png",
+        "label": "Redirects listing, with a search field in the header, buttons to add and import redirects, and rows of existing underneath",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/redirects/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 8.415000000000001,
+          "misMatchPercentage": "8.42",
+          "analysisTime": 80
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Redirects_listing_with_a_search_field_in_the_header_buttons_to_add_and_import_redirects_and_rows_of_existing_underneath.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Editing_form_for_a_redirect_with_from_fields_Site_field_permanent_checkbox_and_destination_fields_for_page_and_URL_options.png",
+        "test": "../bitmaps_test/20240724-064921/Editing_form_for_a_redirect_with_from_fields_Site_field_permanent_checkbox_and_destination_fields_for_page_and_URL_options.png",
+        "selector": "main",
+        "fileName": "Editing_form_for_a_redirect_with_from_fields_Site_field_permanent_checkbox_and_destination_fields_for_page_and_URL_options.png",
+        "label": "Editing form for a redirect, with from fields, Site field, permanent checkbox, and destination fields for page and URL options",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/redirects/1/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 5.322800925925926,
+          "misMatchPercentage": "5.32",
+          "analysisTime": 265
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Editing_form_for_a_redirect_with_from_fields_Site_field_permanent_checkbox_and_destination_fields_for_page_and_URL_options.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Screenshot_of_the_workflow_editing_interface_with_fields_to_change_the_workflow_name_tasks_and_assigned_pages.png",
+        "test": "../bitmaps_test/20240724-064921/Screenshot_of_the_workflow_editing_interface_with_fields_to_change_the_workflow_name_tasks_and_assigned_pages.png",
+        "selector": "main",
+        "fileName": "Screenshot_of_the_workflow_editing_interface_with_fields_to_change_the_workflow_name_tasks_and_assigned_pages.png",
+        "label": "Screenshot of the workflow editing interface, with fields to change the workflow name, tasks, and assigned pages",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/workflows/edit/1/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0,
+          "misMatchPercentage": "0.00",
+          "analysisTime": 161
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Listing_of_workflows_with_a_single_Moderators_approval_workflow_shown_that_has_a_single_step.png",
+        "test": "../bitmaps_test/20240724-064921/Listing_of_workflows_with_a_single_Moderators_approval_workflow_shown_that_has_a_single_step.png",
+        "selector": "main",
+        "fileName": "Listing_of_workflows_with_a_single_Moderators_approval_workflow_shown_that_has_a_single_step.png",
+        "label": "Listing of workflows, with a single \"Moderators approval\" workflow shown, that has a single step",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/workflows/list/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 3.8372222222222225,
+          "misMatchPercentage": "3.84",
+          "analysisTime": 403
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Listing_of_workflows_with_a_single_Moderators_approval_workflow_shown_that_has_a_single_step.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Tasks_listing_with_a_single_item.png",
+        "test": "../bitmaps_test/20240724-064921/Tasks_listing_with_a_single_item.png",
+        "selector": "main",
+        "fileName": "Tasks_listing_with_a_single_item.png",
+        "label": "Tasks listing, with a single item",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/workflows/tasks/index/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.107037037037037,
+          "misMatchPercentage": "1.11",
+          "analysisTime": 53
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Tasks_listing_with_a_single_item.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Tasks_creation_form_with_Name_field_and_Groups_checkboxes_with_two_Moderators_and_Editors_options.png",
+        "test": "../bitmaps_test/20240724-064921/Tasks_creation_form_with_Name_field_and_Groups_checkboxes_with_two_Moderators_and_Editors_options.png",
+        "selector": "main",
+        "fileName": "Tasks_creation_form_with_Name_field_and_Groups_checkboxes_with_two_Moderators_and_Editors_options.png",
+        "label": "Tasks creation form, with Name field and Groups checkboxes, with two Moderators and Editors options",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/workflows/tasks/add/wagtailcore/groupapprovaltask/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Screenshot_of_a_Subtitle_form_field_with_a_comment_button_next_to_it_highlighted_in_red.png",
+        "test": "../bitmaps_test/20240724-064921/Screenshot_of_a_Subtitle_form_field_with_a_comment_button_next_to_it_highlighted_in_red.png",
+        "selector": "main",
+        "fileName": "Screenshot_of_a_Subtitle_form_field_with_a_comment_button_next_to_it_highlighted_in_red.png",
+        "label": "Screenshot of a Subtitle form field with a comment button next to it, highlighted in red",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/68/edit/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Wide_screenshot_of_the_page_editors_tabs_and_the_comment_notifications_switch_off_to_the_right.png",
+        "test": "../bitmaps_test/20240724-064921/Wide_screenshot_of_the_page_editors_tabs_and_the_comment_notifications_switch_off_to_the_right.png",
+        "selector": ".w-tabs__wrapper",
+        "fileName": "Wide_screenshot_of_the_page_editors_tabs_and_the_comment_notifications_switch_off_to_the_right.png",
+        "label": "Wide screenshot of the page editor’s tabs and the comment notifications switch off to the right",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/68/edit/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Page_editor_for_Breads_and_Circuses_blog_page_with_the_minimap_opened_to_the_right_showing_the_form_sections.png",
+        "test": "../bitmaps_test/20240724-064921/Page_editor_for_Breads_and_Circuses_blog_page_with_the_minimap_opened_to_the_right_showing_the_form_sections.png",
+        "selector": "document",
+        "fileName": "Page_editor_for_Breads_and_Circuses_blog_page_with_the_minimap_opened_to_the_right_showing_the_form_sections.png",
+        "label": "Page editor for \"Breads and Circuses\" blog page, with the minimap opened to the right, showing the form sections",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/68/edit/",
+        "expect": 0,
+        "viewportLabel": "1280x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Wagtail_dashboard_with_the_skip_link.png",
+        "test": "../bitmaps_test/20240724-064921/Wagtail_dashboard_with_the_skip_link.png",
+        "selector": "document",
+        "fileName": "Wagtail_dashboard_with_the_skip_link.png",
+        "label": "Wagtail dashboard with the skip link",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 1.2834375,
+          "misMatchPercentage": "1.28",
+          "analysisTime": 231
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Wagtail_dashboard_with_the_skip_link.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Page_editor_for_Breads_and_Circuses_blog_page_with_sections_toggle_button_and_anchor_links_highlighted.png",
+        "test": "../bitmaps_test/20240724-064921/Page_editor_for_Breads_and_Circuses_blog_page_with_sections_toggle_button_and_anchor_links_highlighted.png",
+        "selector": "main",
+        "fileName": "Page_editor_for_Breads_and_Circuses_blog_page_with_sections_toggle_button_and_anchor_links_highlighted.png",
+        "label": "Page editor for \"Breads and Circuses\" blog page, with sections toggle button and anchor links highlighted",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/68/edit/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Page_editor_for_Breads_and_Circuses_blog_page_with_the_collapse_expand_all_having_been_clicked.png",
+        "test": "../bitmaps_test/20240724-064921/Page_editor_for_Breads_and_Circuses_blog_page_with_the_collapse_expand_all_having_been_clicked.png",
+        "selector": "main",
+        "fileName": "Page_editor_for_Breads_and_Circuses_blog_page_with_the_collapse_expand_all_having_been_clicked.png",
+        "label": "Page editor for \"Breads and Circuses\" blog page, with the collapse/expand all having been clicked",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/68/edit/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/The_Wagtail_sidebar_with_its_minimize_control_highlighted.png",
+        "test": "../bitmaps_test/20240724-064921/The_Wagtail_sidebar_with_its_minimize_control_highlighted.png",
+        "selector": ".sidebar",
+        "fileName": "The_Wagtail_sidebar_with_its_minimize_control_highlighted.png",
+        "label": "The Wagtail sidebar, with its minimize control highlighted.",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/",
+        "expect": 0,
+        "viewportLabel": "800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/The_account_menu_within_the_sidebar.png",
+        "test": "../bitmaps_test/20240724-064921/The_account_menu_within_the_sidebar.png",
+        "selector": ".sidebar",
+        "fileName": "The_account_menu_within_the_sidebar.png",
+        "label": "The account menu within the sidebar",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/",
+        "expect": 0,
+        "viewportLabel": "800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Page_editor_for_Breads_and_Circuses_blog_page_with_the_minimap_opened_to_the_right_focused_on_the_toggle.png",
+        "test": "../bitmaps_test/20240724-064921/Page_editor_for_Breads_and_Circuses_blog_page_with_the_minimap_opened_to_the_right_focused_on_the_toggle.png",
+        "selector": "document",
+        "fileName": "Page_editor_for_Breads_and_Circuses_blog_page_with_the_minimap_opened_to_the_right_focused_on_the_toggle.png",
+        "label": "Page editor for \"Breads and Circuses\" blog page, with the minimap opened to the right, focused on the toggle",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/68/edit/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/The_page_editing_form_with_its_Info_side_panel_opened_to_the_right_and_the_Info_side_panel_toggle_highlighted.png",
+        "test": "../bitmaps_test/20240724-064921/The_page_editing_form_with_its_Info_side_panel_opened_to_the_right_and_the_Info_side_panel_toggle_highlighted.png",
+        "selector": "main",
+        "fileName": "The_page_editing_form_with_its_Info_side_panel_opened_to_the_right_and_the_Info_side_panel_toggle_highlighted.png",
+        "label": "The page editing form, with its Info side panel opened to the right, and the Info side panel toggle highlighted",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/pages/61/edit/",
+        "expect": 0,
+        "viewportLabel": "1280",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.2659259259259259,
+          "misMatchPercentage": "0.27",
+          "analysisTime": 212
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_The_page_editing_form_with_its_Info_side_panel_opened_to_the_right_and_the_Info_side_panel_toggle_highlighted.png"
+      },
+      "status": "fail"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/User_profile_notification_settings.png",
+        "test": "../bitmaps_test/20240724-064921/User_profile_notification_settings.png",
+        "selector": ".wrapper",
+        "fileName": "User_profile_notification_settings.png",
+        "label": "User profile notification settings",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/account/#tab-notifications",
+        "expect": 0,
+        "viewportLabel": "800x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/User_profile_locale_and_theme_settings.png",
+        "test": "../bitmaps_test/20240724-064921/User_profile_locale_and_theme_settings.png",
+        "selector": ".wrapper",
+        "fileName": "User_profile_locale_and_theme_settings.png",
+        "label": "User profile locale and theme settings",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/account/#locale-section",
+        "expect": 0,
+        "viewportLabel": "800x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "misMatchPercentage": "0.00"
+        }
+      },
+      "status": "pass"
+    },
+    {
+      "pair": {
+        "reference": "../bitmaps_reference/Keyboard_shortcuts_dialog.png",
+        "test": "../bitmaps_test/20240724-064921/Keyboard_shortcuts_dialog.png",
+        "selector": ".wrapper",
+        "fileName": "Keyboard_shortcuts_dialog.png",
+        "label": "Keyboard shortcuts dialog",
+        "misMatchThreshold": 0.1,
+        "url": "http://localhost:8000/admin/",
+        "expect": 0,
+        "viewportLabel": "800x800",
+        "diff": {
+          "isSameDimensions": true,
+          "dimensionDifference": {
+            "width": 0,
+            "height": 0
+          },
+          "rawMisMatchPercentage": 0.24031249999999998,
+          "misMatchPercentage": "0.24",
+          "analysisTime": 248
+        },
+        "diffImage": "../bitmaps_test/20240724-064921/failed_diff_Keyboard_shortcuts_dialog.png"
+      },
+      "status": "fail"
+    }
+  ],
+  "id": "docs"
+}
