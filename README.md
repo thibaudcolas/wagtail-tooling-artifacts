@@ -1,3 +1,3 @@
-# Wagtail tooling screenshots
+# Wagtail tooling artifacts
 
-Screenshots taken with [wagtail-tooling](https://github.com/thibaudcolas/wagtail-tooling)
+Screenshots and other artifacts collected with [wagtail-tooling](https://github.com/thibaudcolas/wagtail-tooling).
